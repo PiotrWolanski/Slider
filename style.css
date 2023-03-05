@@ -20,6 +20,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
   .whole i.button{
     position: absolute;
@@ -33,6 +35,11 @@
     line-height: 36px;
     color: #fff;
     font-size: 15px;
+    transition: all 0.3s linear;
+    cursor: pointer
+  }
+  i.button:active{
+    transform: scale(0.94)translateY(-50%);
   }
   i#prev{
     left: 25px;
@@ -50,6 +57,7 @@
     display: flex;
     height: 100%;
     width: 100%;
+    overflow: hidden;
   }
   
   .zoo img{
