@@ -26,5 +26,5 @@ const updateClick = () => {
 
 buttons.forEach((button) => button.addEventListener("click", updateClick));
 
-whole.addEventListener("mouseover", () => clearInterval(intervalId))
-whole.addEventListener("mouseleave", autoSlide)
+whole.addEventListener("mouseover", () => clearInterval(intervalId));
+whole.addEventListener("mouseleave", autoSlide);
