@@ -3,7 +3,7 @@ const whole = document.querySelector(".whole"),
     images = document.querySelectorAll("img"),
     buttons = document.querySelectorAll(".button");
 
-let imageIndex = 1,
+let imageIndex = 0,
     intervalId;
 
 const autoSlide = () => {

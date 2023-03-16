@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #000000
+    background: #888888
   }
   .whole{
     display: flex;
@@ -21,7 +21,7 @@
     justify-content: center;
     position: relative;
     border-radius: 12px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgb(11, 15, 70);
   }
   .whole i.button{
     position: absolute;
@@ -29,11 +29,11 @@
     transform: translateY(-50%);
     height: 36px;
     width: 36px;
-    background-color: #343f4f;
+    background-color: #47494d;
     border-radius: 50%;
     text-align: center;
     line-height: 36px;
-    color: #fff;
+    color: #4061a8;
     font-size: 15px;
     transition: all 0.3s linear;
     z-index: 100;
@@ -66,9 +66,15 @@
   .wro img{
     margin: 2px;
     display: inline-block;
+    height: 320px;
+    width: 500px;
+    border-radius: 15px;
+    border: 10px solid rgb(14, 19, 34);
+    object-fit: cover;
+  }
+
+  .img {
     height: 100%;
     width: 100%;
-    border-radius: 18px;
-    border: 10px solid rgb(74, 90, 99);
-    object-fit: cover;
+    position: relative;
   }
